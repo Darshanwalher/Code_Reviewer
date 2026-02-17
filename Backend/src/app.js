@@ -10,4 +10,4 @@ app.use(express.static("./public"))
 app.use("/ai",aiRoutes)
 
 
-module.exports = app
+module.exports = ap
