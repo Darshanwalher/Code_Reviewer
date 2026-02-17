@@ -27,7 +27,7 @@ const App = () => {
       setReview("")
 
       const response = await axios.post(
-        "http://localhost:3000/ai/get-response",
+        "https://code-reviewer-1-n39t.onrender.com/ai/get-response",
         { code }
       )
 
